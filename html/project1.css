@@ -1,0 +1,298 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-03-02 09:48:07
+ * @version $Id$
+ */
+ body {
+   margin: 0;
+ }
+
+ li{
+   list-style: none;
+ }
+
+.m-bk {
+  position: absolute;
+  width: 1063px;
+  height: 544px;
+  background: url(9264.jpg)no-repeat;
+  opacity: 0.4;
+}
+
+.m-menu {
+  padding: 15px 65px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #6c6c6c;
+}
+
+.m-menu-item+.m-menu-item{
+  margin-left: 9.5px;
+}
+.m-p1 {
+	position: absolute;
+	color: #6c6c6c;
+	opacity: 0.6;
+	font-size: 13px;
+	padding: 23px 32px;
+}
+.m-p2 {
+	position: absolute;
+	color: #000000;
+	font-size: 18.5px;
+	padding: 44px 32px;
+	font-weight: bold;
+}
+
+.m-p3 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 13.5px;
+	padding: 75px 32px;
+	
+}
+
+.m-p4 {
+	position: absolute;
+	color: #000000;
+	font-size: 12.1px;
+	padding: 109px 32px;
+	
+}
+
+.m-p5 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 13px;
+	padding: 128px 34px;
+	
+}
+.m-p21 {
+	position: absolute;
+	color: #6c6c6c;
+	opacity: 0.6;
+	font-size: 13px;
+	padding: 195px 32px;
+}
+.m-p22 {
+	position: absolute;
+	color: #000000;
+	font-size: 18.2px;
+	padding: 215px 32px;
+	font-weight: bold;172
+}
+
+.m-p23 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 13px;
+	padding: 245px 32px;
+	
+}
+
+.m-p24 {
+	position: absolute;
+	color: #000000;
+	font-size: 12.6px;
+	padding: 279px 32px;
+	
+}
+
+.m-p25 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 12.4px;
+	padding: 299px 34px;
+	
+}.m-p31 {
+	position: absolute;
+	color: #6c6c6c;
+	opacity: 0.6;
+	font-size: 13px;
+	padding: 365px 32px;
+}
+.m-p32 {
+	position: absolute;
+	color: #000000;
+	font-size: 18.7px;
+	padding: 386px 32px;
+	font-weight: bold;172
+}
+
+.m-p33 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 13.1px;
+	padding: 418px 32px;
+	
+}
+
+.m-p34 {
+	position: absolute;
+	color: #000000;
+	font-size: 12.6px;
+	padding: 451px 32px;
+	
+}
+
+.m-p35 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 12.4px;
+	padding: 470px 34px;
+	
+}
+.m-p-m {
+	position: absolute;
+	color: #000000;
+	font-size: 18.1px;
+	margin-left: 770px;
+	margin-top: 56px;
+	font-weight: bold;
+}
+.m-p-m1 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 25px;
+	margin-left: 770px;
+	margin-top: 130px;
+	font-weight: bold;
+	opacity: 0.1;
+}
+.m-p-m2 {
+	position: absolute;
+	color: #000000;
+	font-size: 14px;
+	margin-left: 815px;
+	margin-top: 133px;
+	font-weight: bold;
+}
+.m-p-m3 {
+	position: absolute;
+	color: #000000;
+	font-size: 14px;
+	margin-left: 815px;
+	margin-top: 153px;
+	font-weight: bold;
+}
+.m-p-m4 {
+	position: absolute;
+	color: #000000;
+	font-size: 14px;
+	margin-left: 815px;
+	margin-top: 173px;
+	font-weight: bold;
+}
+.m-p-m5 {
+	position: absolute;
+	color: #000000;
+	font-size: 12.6px;
+	margin-left: 815px;
+	margin-top: 198px;
+	
+}
+
+.m-p-m6 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 12.4px;
+	margin-left: 815px;
+	margin-top: 218px;
+	
+}
+.m-p-m21 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 25px;
+	margin-left: 770px;
+	margin-top: 259px;
+	font-weight: bold;
+	opacity: 0.1;
+}
+.m-p-m22 {
+	position: absolute;
+	color: #000000;
+	font-size: 14px;
+	margin-left: 815px;
+	margin-top: 262px;
+	font-weight: bold;
+}
+.m-p-m23 {
+	position: absolute;
+	color: #000000;
+	font-size: 14.5px;
+	margin-left: 815px;
+	margin-top: 282px;
+	font-weight: bold;
+}
+.m-p-m24 {
+	position: absolute;
+	color: #000000;
+	font-size: 14px;
+	margin-left: 815px;
+	margin-top: 302px;
+	font-weight: bold;
+}
+.m-p-m25 {
+	position: absolute;
+	color: #000000;
+	font-size: 12.6px;
+	margin-left: 816px;
+	margin-top: 328px;
+	
+}
+
+.m-p-m26 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 12.6px;
+	margin-left: 816px;
+	margin-top: 348.5px;
+	
+}
+.m-p-m31 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 25px;
+	margin-left: 770px;
+	margin-top: 389px;
+	font-weight: bold;
+	opacity: 0.1;
+}
+.m-p-m32 {
+	position: absolute;
+	color: #000000;
+	font-size: 14.5px;
+	margin-left: 815px;
+	margin-top: 391px;
+	font-weight: bold;
+}
+
+.m-p-m33 {
+	position: absolute;
+	color: #000000;
+	font-size: 14px;
+	margin-left: 815px;
+	margin-top: 411px;
+	font-weight: bold;
+}
+.m-p-m34 {
+	position: absolute;
+	color: #000000;
+	font-size: 12.2px;
+	margin-left: 816px;
+	margin-top: 437px;
+	
+}
+
+.m-p-m35 {
+	position: absolute;
+	color: #6c6c6c;
+	font-size: 12.6px;
+	margin-left: 816px;
+	margin-top: 457px;
+	
+}
