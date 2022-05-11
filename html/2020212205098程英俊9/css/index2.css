@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-26 19:23:43
+ * @version $Id$
+ */
+.ma {
+	margin-left: 10px;
+}
+
+.m-tl {
+	height: 72px;
+	background: #018CEB;
+}
+
+.m-tl-wz {
+	padding: 30px 0 0 0;
+}
+
+.m-tl-wz>button {
+	padding: 5px 10px;
+	color: white;
+	font-size: 13px;
+	border: none;
+}
+
+.cl1 {
+	background: #0169B0;
+}
+
+.cl2 {
+	background: #018CEB;
+}
+
+.op-dx {
+	background: #018CEB;
+	width: 56px;
+	padding: 0;
+	color: white;
+	border: none;
+}
+
+.tl-r {
+	margin-top: 5px;
+}
+
+.m-tl-s2 {
+	background: white;
+	color: #6c6c6c;
+	height: 23px;
+	margin-top: 5px;
+}
+
+.m-tl-s3 {
+	color: black;
+	height: 20px;
+	background: white;
+}
+
+.m-tl-s4 {
+	height: 20px;
+	border: none;
+}
+
+.m-tl-s5 {
+	background: white;
+	font-size: 18px;
+	color: #6a6a6a;
+}
+
+.tl-r>span {
+	float: right;
+}
+
+.tl-r>form {
+	float: right;
+}
+
+.m-bd {
+	margin-top: 10px;
+}
+
+.r-1 {
+	background: #eee;
+	height: 225px;
+}
+
+.l-1>div {
+	width: 575px;
+	height: 225px;
+	background: gray;
+}
+
+.r-1>P {
+	padding: 40px 0 0 0;
+	text-align: center;
+}
+
+.fk {
+	border-radius: 5px;
+	margin: 40px 72px;	/* width: 125px; */
+	height: 35px;
+	background: #009CFF;
+	margin-bottom: 20px;/* position: absolute; */
+
+	/* left: 50%; */
+
+	/* top: 50%; */
+
+	/* transform: translate(-50%, -50%); */
+}
+
+.xian {
+
+	/* margin-left: 20px; */
+	border-bottom: 1px dashed wheat;	/* width: 230px; */
+	text-align: center;
+}
+
+.r1-bt {
+	margin-top: 10px;
+}
+
+.r-1.row {
+	text-align: center;
+}
+
+.shuju-cl {
+	color: #009CFF;
+}
+
+.l-2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.r-2-1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+.r-2-2 {
+	font-size: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.l-3-1 {
+
+	/* padding: 0; */border: 1px solid #eee;
+}
+
+.l-3-2 {
+
+	/* margin-right: 0; */margin: auto;/* width: 185px; */
+
+	/* padding: 0; */
+	border: 1px solid #eee;	/* border-left: none; */
+}
+
+.row1-1-1 {
+	margin-top: 10px;
+}
+
+.row1-1-2 {
+	padding-left: 28px;
+}
+
+.row1-1-5 {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.row1-2-1 {
+
+	/* margin: 10px; */
+	margin: auto;/* margin-right: 10px; */
+	height: 90px;
+	width: 160px;
+	background: gray;/* margin-left: 0; */
+
+	/* padding: 0; */
+	margin-top: 10px;	/* margin-right: 0; */
+}
+
+.row1-2-2 {
+}
+
+.row1-2-3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.r-3 {
+	border: 1px solid #eee;
+	border-bottom: 3px solid #009CFF;
+}
+
+.r3-1 {
+	height: 90px;
+	margin: auto;
+	width: 200px;/* margin: 10px; */
+	margin-top: 19px;
+	background: gray;
+}
+
+.r3-2 {
+	margin: 10px;
+	font-weight: bold;
+}
+
+.r3-3 {
+	margin-left: 10px;
+}
+
+.r3-4 {
+	margin: 10px;
+}
+
+.r3-5 {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color: #eee;
+	font-size: 10px;
+}
+
+.r-4 {
+	border: 1px solid #eee;
+	border-bottom: 3px solid #009CFF;
+	margin-top: 10px;
+}
+
+.r-5 {
+	margin-top: 10px;
+	border: 1px solid #eee;
+}
+
+.r5-1 {
+	border-bottom: 1px dashed wheat;
+	margin: 10px;/* padding: 0; */
+}
+
+.r5-2 {
+	background: gray;
+	margin: auto;
+	height: 65px;
+	width: 150px;
+}
+
+.r5-3 {
+	width: 150px;
+	color: white;
+	text-align: center;
+	background: black;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.r5-1-1 {
+	padding: 0;
+}
+
+.r5-1-2 {
+	padding: 0;
+	text-align: right;
+}
+
+.r5-1-1>span+span {
+	color: #009CFF;
+}
+
+.l-4 {
+}
+
+.l4 {
+	border: 1px solid #eee;
+}
+
+.l4-1 {
+	background: gray;
+	width: 160px;
+	margin: auto;
+	height: 85px;
+	margin-top: 10px;
+}
+
+.l4-2 {
+	margin-top: 10px;
+	color: white;
+}
+
+.l4-2>span {
+	margin-top: 10px;/* border: 1px solid; */
+	padding: 2px 4px;
+	background: #FB7740;
+	border-radius: 3px;
+}
+
+.l4-3 {
+}
+
+.l4-4 {
+	color: gray;
+	margin: 10px 0;
+}
+
+.l-5 {
+}
+
+.l5 {
+	border: 1px solid #eee;
+}
+
+.l5-1 {
+	background: gray;
+	width: 250px;
+	margin: auto;
+	height: 130px;
+	margin-top: 10px;
+}
+
+.l5-2 {
+	margin-top: 10px;
+}
+
+.l5-3 {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	color: gray;
+}
+
+.l-6 {
+	border: 1px solid #eee;
+}
+
+.l6-1 {
+	background: gray;
+	width: 160px;
+	margin: auto;
+	height: 90px;
+	margin-top: 10px;
+}
+
+.l6-2 {
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.l6-3 {
+	margin-left: 10px;
+	margin-top: 25px;
+	word-break: break-word;
+	overflow:;
+}
+
+.l6-4 {
+	padding-right: 20px;
+	color: gray;
+	text-align: right;
+	margin-bottom: 10px;
+}

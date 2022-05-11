@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-04-13 10:32:46
+ * @version $Id$
+ */
+.m-box {
+  position: relative;
+}
+
+.m-box-l1 {
+  border: 1px solid #000;
+  padding: 25px 25px 20px 78px;
+  width: 500px;
+}
+
+.m-tu {
+  display: inline-block;
+  text-align: center;
+  line-height: 80px;
+  border: 1px solid #000;
+  background: #505432;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 5px;
+}
+
+.m-showbox {
+  position: absolute;
+  top: 47px;
+  left: 227px;
+  border: 1px solid #505432;
+  height: 140px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.m-showbox .m-tu {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+}
+
+.hide {
+  display: none;
+} 
+

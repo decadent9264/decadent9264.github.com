@@ -1,0 +1,372 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-03-23 09:17:19
+ * @version $Id$
+ */
+body {
+   padding: 0;
+  margin: 0;
+ }
+
+
+.m-index{
+  width: 1252px;
+  height: 1204px;
+  background: url(ex05.png)no-repeat;
+  opacity: 0.4;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.m-t1{
+  margin: 0 0 20px 0;
+}
+
+.m-t1:after{
+  /* content: ''; */
+  display: block;
+  clear: both;
+}
+
+.m-img{
+   width: 490px;
+   height: 318px;
+   background: black;
+   float: left;
+   margin: 30px 0 0 106px;
+   position: absolute;
+}
+
+.m-news-info{
+  margin: 0 0 0 646px;
+}
+.m-news-info>h1:before {
+  content: "";
+  /* style */
+  width: 51px;
+  height: 5px;
+  background: #006699;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.m-news-info>h1{
+    font-size: 25px;
+    margin: 0;
+    padding: 43px 0 23px 0;
+    position: relative;
+}
+
+.m-news-info>p{
+    position: relative;
+    padding: 28px 0 0 0px;
+    font-size: 24px;
+    margin: 0 63px 33px 0;
+}
+.m-fun{
+  position: relative;
+}
+.m-fun>span {
+   position: absolute;
+    left: 174px;
+    top: 10px;
+    color: #fff;
+}
+.m-fun>input{
+    width: 199px;
+    height: 41px;
+    border-radius: 5px;
+    color: #fff;
+    background: #006699;
+    position: relative;
+    border: none;
+    text-align: left;
+    padding: 0 0 0 16px;
+}
+
+.m-fun>input:before{
+  content: ">";
+  display: block;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+.m-t2{
+  margin: 0;
+}
+
+.m-t2:after{
+  /* content: ''; */
+  display: block;
+  clear: both;
+}
+.m-blog {
+   color: #0065a9;
+    font-size: 32px;
+    font-weight: bold;
+    float: left;
+    margin: 66px 0 0 106px;
+    position: absolute;
+}
+
+.m-blog:before {
+      content: "";
+    width: 4px;
+    height: 17px;
+    background: #006699;
+    display: block;
+    position: absolute;
+    right: -20px;
+    top: 15px;
+    bottom: 0;
+}
+
+.m-blog1 {
+    color: black;
+    font-size: 30px;
+    /* font-weight: bold; */
+    float: left;
+    margin: 66px 0px 0px 218px;
+    position: absolute;
+}
+.m-blog-bt {
+    position: absolute;
+    padding: 68px 0 0 956px;
+}
+.m-blog-bt>span {
+    position: absolute;
+    left: 1083px;
+    bottom: 8px;
+    color: #fff;
+}
+.m-blog-bt>input {
+    width: 150px;
+    height: 37px;
+    border-radius: 5px;
+    color: #fff;
+    background: #006699;
+    position: relative;
+    border: none;
+    text-align: left;
+    padding: 0 0 0 24px;
+}
+.m-blog-bt>input:before {
+    content: ">";
+    display: block;
+    color: #fff height: 50px;
+    width: 100px;
+    position: absolute;
+}
+.m-t2-t2{
+   margin: 1px 0px 0px 107px;
+   padding: 158px 0 0 0;
+}
+.m-t2-t2-t1 {
+   font-size: 14px;
+   margin: 0;
+   padding: 25px 0px 0px 1px;
+   position: absolute;
+}
+.m-t2-t2-t2>input {
+   font-size: 14px;
+    margin: 0;
+    /* padding: 3px 0px 0px 140px; */
+    position: absolute;
+    width: 111px;
+    height: 27px;
+    border-radius: 28px;
+    color: #fff;
+    background: #006699;
+    border: none;
+    text-align: center;
+    margin: 20px 0px 0px 109px;
+}
+.m-t2-t2-t3 {
+   font-size: 28px;
+   margin: 0;
+   padding: 14px 0px 0px 242px;
+   position: absolute;
+}
+.m-t2-t3-t1 {
+   font-size: 14px;
+   margin: 0;
+   padding: 113px 0px 0px 107px;
+   position: absolute;
+}
+.m-t2-t3-t2>input {
+   font-size: 14px;
+   margin: 0;
+   /* padding: 3px 0px 0px 140px; */
+   position: absolute;
+   width: 111px;
+   height: 27px;
+   border-radius: 28px;
+   color: #fff;
+   background: green;
+   border: none;
+   text-align: center;
+   margin: 108px 0px 0px 219px;
+}
+.m-t2-t3-t3 {
+   font-size: 28px;
+   margin: 0;
+   padding: 100px 0px 0px 346px;
+   position: absolute;
+}
+.m-t2-t4-t1 {
+   font-size: 14px;
+   margin: 0;
+   padding: 201px 0px 0px 107px;
+   position: absolute;
+}
+.m-t2-t4-t2>input {
+   font-size: 14px;
+   margin: 0;
+   /* padding: 3px 0px 0px 140px; */
+   position: absolute;
+   width: 111px;
+   height: 27px;
+   border-radius: 28px;
+   color: #fff;
+   background: green;
+   border: none;
+   text-align: center;
+   margin: 196px 0px 0px 219px;
+}
+.m-t2-t4-t3 {
+   font-size: 28px;
+   margin: 0;
+   padding: 190px 0px 0px 346px;
+   position: absolute;
+}
+.m-t3{
+  margin: 200px 0 20px 0;
+}
+
+.m-t3:after{
+  /* content: ''; */
+  display: block;
+  clear: both;
+}
+.m-t3-l-t1{
+   padding: 31px 0 0px 50px;
+   color: #006699;
+   font-size: 37px;
+   position: absolute;
+}
+.m-t3-l-t1:before {
+     content: "";
+     width: 6px;
+     height: 31px;
+     background: #006699;
+     display: block;
+     position: absolute;
+     bottom: 1px;
+     left: 32px;
+}
+
+.m-t3-l-t3 {
+   /* margin: 13px 9px 2px 10px; */
+   padding: 148px 0 0px 202px;
+   color: black;
+   font-size: 43px;
+   position: absolute;
+}
+.m-t3-l-t4 {
+   padding: 204px 0 0px 145px;
+   color: #006699;
+   font-size: 44px;
+   position: absolute;
+   font-weight: bold;
+}
+.m-t3-l-t5 {
+    padding: 270px 0 0px 161px;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+}
+.m-t3-l-t6 {
+   padding: 299px 0 0px 177px;
+   color: black;
+   font-size: 30px;
+   position: absolute;
+}
+.m-t3-l-t7 {
+    padding: 367px 0 0px 165px;
+    color: #006699;
+    font-size: 30px;
+    position: absolute;
+}
+.m-t3-r-t1{
+    padding: 62px 0 0px 659px;
+    color: #006699;
+    font-size: 37px;
+    position: absolute;
+}
+.m-t3-r-t1:before {
+    content: "";
+    width: 6px;
+    height: 31px;
+    background: #006699;
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    left: 642px;
+}
+.m-t3-r-t2{
+    padding: 62px 0 0px 659px;
+    color: #006699;
+    font-size: 37px;
+    position: absolute;
+}
+.m-t3-r-t2>input {
+   width: 199px;
+    height: 41px;
+    border-radius: 5px;
+    color: #fff;
+    background: #006699;
+    position: relative;
+    border: none;
+    text-align: left;
+    padding: 0 0 0 16px;
+}
+.m-t3-r-t2{
+    padding: 202px 0 0px 696px;
+    color: #006699;
+    font-size: 37px;
+    position: absolute;
+}
+.m-t3-r-t2>input {
+   width: 429px;
+   height: 71px;
+   border-radius: 5px;
+   color: #fff;
+   background: #006699;
+   position: relative;
+   border: none;
+   text-align: center;
+   padding: 0 0 0 16px;
+}
+.m-t3-r-t3{
+   padding: 288px 0 0px 769px;
+    color: black;
+    font-size: 24px;
+    position: absolute;
+}
+.m-t3-r-t4{
+   padding: 316px 0 0px 769px;
+    color: black;
+    font-size: 24px;
+    position: absolute;
+}
+.m-t3-r-t5{
+   padding: 343px 0 0px 802px;
+    color: black;
+    font-size: 24px;
+    position: absolute;
+}
